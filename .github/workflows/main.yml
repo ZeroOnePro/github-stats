@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: "5 0 * * *"
+    - cron: "0 15 * * *" # UTC + 9시간 = 한국시간
   workflow_dispatch:
 
 permissions:
